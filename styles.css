@@ -264,3 +264,99 @@ body.dark-mode .cabecalho a {
     gap: 3.3em;
     margin-top: 1em;
 }
+
+.sec2__loja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sec2__loja h1 {
+    font-family: var(--fonte-Inter);
+    font-size: 35px;
+    color: var(--azul-escuro);
+}
+
+
+.sec2__nfts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+}
+
+
+.card__nft {
+    width: 300px;
+    height: 400px;
+    background-color: var(--background-dark);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card__infos {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.2em;
+    margin-left: 1em;
+}
+
+.card__infos h1 {
+    font-family: var(--fonte-Inter);
+    color: white;
+    font-size: 20px;
+}
+.card__infos h3 {
+    font-family: var(--fonte-Inter);
+    color: white;
+    font-size: 15px;
+}
+
+.valores {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7em;
+    margin-top: 0.3em;
+}
+
+.Preço {
+    color: gray;
+    font-family: var(--fonte-Inter);
+    font-size: 15px;
+}
+.maiorValor {
+    color: gray;
+    font-family: var(--fonte-Inter);
+    font-size: 15px;
+}
+
+.vermais {
+    width: 270px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul-escuro);
+    border-radius: 20px;
+    color: white;
+    font-family: var(--fonte-Inter);
+    font-size: 30px;
+}
+
+.nfts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-dark);
+    margin-top: 2em;
+}
+.nfts img {
+    width: 300px;
+}
+
