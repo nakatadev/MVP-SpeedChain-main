@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: -12em;
+    margin-top: -9em;
     gap: 18em;
 }
 
@@ -360,3 +360,6 @@ body.dark-mode .cabecalho a {
     width: 300px;
 }
 
+.logo {
+    width: 300px;
+}
